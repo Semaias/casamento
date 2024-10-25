@@ -60,17 +60,17 @@ const Navbar: React.FC = () => {
           </button>
           <ul className="flex flex-col items-center space-y-6">
             <li>
-              <Link href="/" className="text-gray-700 text-2xl" onClick={toggleMenu}>
+              <Link href="/#history" className="text-gray-700 text-2xl" onClick={toggleMenu}>
                 Nossa História
               </Link>
             </li>
             <li>
-              <Link href="/" className="text-gray-700 text-2xl" onClick={toggleMenu}>
+              <Link href="/#Gallery" className="text-gray-700 text-2xl" onClick={toggleMenu}>
                 Galeria
               </Link>
             </li>
             <li>
-              <Link href="/" className="text-gray-700 text-2xl" onClick={toggleMenu}>
+              <Link href="/#location" className="text-gray-700 text-2xl" onClick={toggleMenu}>
                 Localização
               </Link>
             </li>
