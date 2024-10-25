@@ -26,10 +26,10 @@ const Gallery = () => {
               <Image alt="gallery" width={601} height={361} className="w-full h-full object-cover object-center block" src="/t4.jpeg"/>
             </div>
             <div className="md:p-2 p-1 w-1/2">
-              <Image alt="gallery" width={502} height={302} className="w-full object-cover h-full object-center block" src="/js.png"/>
+              <Image alt="gallery" width={502} height={302} className="w-full object-cover h-full object-center block" src="/js.jpg"/>
             </div>
             <div className="md:p-2 p-1 w-1/2">
-              <Image alt="gallery" width={503} height={303} className="w-full object-cover h-full object-center block" src="/js.png" />
+              <Image alt="gallery" width={503} height={303} className="w-full object-cover h-full object-center block" src="/js.jpg" />
             </div>
           </div>
         </div>
