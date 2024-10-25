@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
   });
 
   // Data alvo (21 de junho de 2025)
-  const targetDate = new Date('2025-06-21T00:00:00');
+  const targetDate = new Date('2025-06-21T16:00:00');
 
   useEffect(() => {
     const interval = setInterval(() => {
