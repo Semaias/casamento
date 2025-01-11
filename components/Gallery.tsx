@@ -1,41 +1,100 @@
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-const Gallery = () => {
-  return (
-    <section className="text-gray-600 body-font" id='gallery'>
-      <div className="container px-5 py-24 mx-auto flex flex-wrap">
-        <div className="flex w-full mb-20 flex-wrap">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Conheça mais um pouco sobre nós</h1>
-          <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Temos uma longa história e queremos que aproveitem cada minuto ao nosso lado</p>
-        </div>
-        <div className="flex flex-wrap md:-m-2 -m-1">
-          <div className="flex flex-wrap w-1/2">
-            <div className="md:p-2 p-1 w-1/2">
-              <Image alt="gallery" width={500} height={300} className="w-full object-cover h-full object-center block" src="/t1.jpeg" />
-            </div>
-            <div className="md:p-2 p-1 w-1/2">
-              <Image alt="gallery" width={501} height={301} className="w-full object-cover h-full object-center block" src="/t2.jpeg"/>
-            </div>
-            <div className="md:p-2 p-1 w-full">
-              <Image alt="gallery" width={600} height={360} className="w-full h-full object-cover object-center block" src="/t3.jpeg"/>
-            </div>
-          </div>
-          <div className="flex flex-wrap w-1/2">
-            <div className="md:p-2 p-1 w-full">
-              <Image alt="gallery" width={601} height={361} className="w-full h-full object-cover object-center block" src="/t4.jpeg"/>
-            </div>
-            <div className="md:p-2 p-1 w-1/2">
-              <Image alt="gallery" width={502} height={302} className="w-full object-cover h-full object-center block" src="/js.jpg"/>
-            </div>
-            <div className="md:p-2 p-1 w-1/2">
-              <Image alt="gallery" width={503} height={303} className="w-full object-cover h-full object-center block" src="/js.jpg" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
+"use client";
 
-export default Gallery
+import { useState } from "react";
+import Image from "next/image";
+
+const Gallery = () => {
+  // Array de imagens locais
+  const images = Array.from({ length: 9 }, (_, i) => ({
+    id: i + 1,
+    url: `/lt0${i + 1}.jpeg`,
+  }));
+
+  const [currentIndex, setCurrentIndex] = useState(null);
+
+  const openModal = (index) => {
+    setCurrentIndex(index);
+  };
+
+  const closeModal = () => {
+    setCurrentIndex(null);
+  };
+
+  const nextImage = () => {
+    setCurrentIndex((prev) => (prev + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentIndex((prev) =>
+      prev === 0 ? images.length - 1 : prev - 1
+    );
+  };
+
+  return (
+    <div className="container mx-auto py-8">
+      <h1 className="text-3xl font-bold text-center mb-8">Photo Gallery</h1>
+
+      {/* Grid da Galeria */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+        {images.map((image, index) => (
+          <div
+            key={image.id}
+            className="relative cursor-pointer"
+            onClick={() => openModal(index)}
+          >
+            <Image
+              src={image.url}
+              alt={`Image ${image.id}`}
+              width={200}
+              height={150}
+              className="rounded-lg hover:opacity-80 transition"
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Modal */}
+      {currentIndex !== null && (
+        <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
+          <div className="relative w-full h-full flex items-center justify-center">
+            {/* Imagem Atual */}
+            <Image
+              src={images[currentIndex].url}
+              alt={`Image ${images[currentIndex].id}`}
+              layout="contain"
+              width={800}
+              height={600}
+              className="rounded-lg"
+            />
+
+            {/* Botão Fechar */}
+            <button
+              className="absolute top-4 right-4 text-white text-3xl font-bold bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-70 transition"
+              onClick={closeModal}
+            >
+              ×
+            </button>
+
+            {/* Botão Anterior */}
+            <button
+              className="absolute left-4 text-white text-3xl font-bold bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-70 transition"
+              onClick={prevImage}
+            >
+              ‹
+            </button>
+
+            {/* Botão Próximo */}
+            <button
+              className="absolute right-4 text-white text-3xl font-bold bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-70 transition"
+              onClick={nextImage}
+            >
+              ›
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Gallery;
