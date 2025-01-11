@@ -10,9 +10,11 @@ const Gallery = () => {
     url: `/lt0${i + 1}.jpeg`,
   }));
 
-  const [currentIndex, setCurrentIndex] = useState(null);
+  // Tipando o estado de currentIndex como um número ou nulo
+  const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 
-  const openModal = (index) => {
+  // Definindo o tipo de index para a função openModal
+  const openModal = (index: number) => {
     setCurrentIndex(index);
   };
 
@@ -21,12 +23,12 @@ const Gallery = () => {
   };
 
   const nextImage = () => {
-    setCurrentIndex((prev) => (prev + 1) % images.length);
+    setCurrentIndex((prev) => (prev !== null ? (prev + 1) % images.length : 0));
   };
 
   const prevImage = () => {
     setCurrentIndex((prev) =>
-      prev === 0 ? images.length - 1 : prev - 1
+      prev === 0 ? images.length - 1 : (prev ?? 0) - 1
     );
   };
 
