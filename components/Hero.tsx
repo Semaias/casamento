@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Hero: React.FC = () => {
-  const [timeLeft, setTimeLeft] = useState<{days: number, hours: number, minutes: number, seconds: number}>({
+  const [timeLeft, setTimeLeft] = useState<{ days: number, hours: number, minutes: number, seconds: number }>({
     days: 0,
     hours: 0,
     minutes: 0,
@@ -30,11 +30,11 @@ const Hero: React.FC = () => {
   }, [targetDate]);
 
   return (
-    <section className="relative flex items-center justify-center h-[80vh] bg-cover bg-center text-white" 
+    <section className="relative flex items-center justify-center h-[80vh] bg-cover bg-center text-white"
       style={{ backgroundImage: "url('/altar.jpg')" }}>
-      
+
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      
+
       <div className="relative z-10 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">SAVE THE DATE</h1>
         <h2 className="text-2xl md:text-4xl mb-8">Nosso grande dia está chegando</h2>
@@ -59,7 +59,9 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
+      
     </section>
+
   );
 };
 

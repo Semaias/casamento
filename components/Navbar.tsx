@@ -21,12 +21,12 @@ const Navbar: React.FC = () => {
   }, [isOpen]);
 
   return (
-    <nav className="bg-white p-4 shadow-lg justify-center items-center fixed top-0 left-0 w-full z-30"> {/* fixed navbar no topo */}
+    <nav className="bg-white z-50 p-4 shadow-lg justify-center items-center fixed top-0 left-0 w-full z-30"> {/* fixed navbar no topo */}
       <div className="max-w-7xl ml-11 mx-auto flex items-center justify-between">
         {/* LOGO */}
         <div className="text-gray-700 text-xl font-bold">
           <Link href="/">
-            <Image src="/js.png" width={32} height={32} alt={'monograma do casal'} />
+            <Image src="/js.jpg" width={32} height={32} alt={'monograma do casal'} />
           </Link>
         </div>
 
