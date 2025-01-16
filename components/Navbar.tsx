@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
         {/* LOGO */}
         <div className="text-[#8DBA9C] text-xl font-bold">
           <Link href="/">
-            <Image src="/js.jpg" width={32} height={32} alt={'monograma do casal'} />
+            <Image src="/js.png" width={32} height={32} alt={'monograma do casal'} />
           </Link>
         </div>
 

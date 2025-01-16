@@ -50,7 +50,7 @@ const Timeline = () => {
   ];
 
   return (
-    <section className="text-[#394C40] bg-[#DDEBE180] body-font pb-10 -mt-20">
+    <section className="text-[#394C40]  body-font pb-10 -mt-20">
 
       <h2 className="text-center text-2xl font-black text-[#536E5C] pt-20">Nossa linha do tempo</h2>
 

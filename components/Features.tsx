@@ -26,7 +26,7 @@ const Features = () => {
     {
       id: 4,
       icon: "/dress.svg",
-      title: "BRANCO É A COR DA NOIVA!",
+      title: "Branco é a cor da noiva!",
       description: ""
     },
     // { id: 5,
@@ -43,7 +43,7 @@ const Features = () => {
     {
       id: 6,
       icon: "/noPhone.svg",
-      title: "NÃO ATRAPALHE OS FOTÓGRAFOS!",
+      title: "Não atrapaçhe os fotógrafos!",
       description: ""
     },
     {
@@ -69,9 +69,9 @@ const Features = () => {
 
 
   return (
-    <section className="bg-[#DDEBE180]">
+    <section className="">
 
-      <div className="max-w-7xl px-5 mt-32 py-10">
+      <div className="max-w-7xl px-5 mt-20 py-10">
         <h2 className="text-3xl font-black text-[#394C40] text-center pb-10">
           Manual do Convidado
         </h2>

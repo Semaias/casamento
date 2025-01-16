@@ -2,7 +2,7 @@ import React from 'react'
 
 const Guide = () => {
   return (
-    <section className="text-[#536E5C] body-font relative my-20" id="location">
+    <section className="text-[#536E5C]  body-font relative" id="location">
 
 
       <div className="absolute inset-0">
@@ -40,7 +40,7 @@ const Guide = () => {
             rel="noopener noreferrer"
             className="text-white bg-[#536E5C] border-0 py-2 px-6 focus:outline-none hover:bg-[#394C40] rounded text-lg"
           >
-            Link pro WhatsApp
+            Confirmar presença
           </a>
         </div>
       </div>

@@ -13,79 +13,367 @@ const Gifts = () => {
     cozinha: [
       {
         id: 1,
-        title: "Geladeira",
+        title: "Armário",
         description: "Tá baratinho, pow",
         link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
       },
       {
         id: 2,
-        title: "Fogão",
-        description: "Pra cozinhar aquele rango especial",
-        link: "https://www.magazineluiza.com.br/fogao-5-bocas-brastemp/p/fd4h6f47ea/et/foga/",
+        title: "Mesa de Jantar",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 3,
+        title: "Airfryer",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 4,
+        title: "Batedeira",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 5,
+        title: "Chaleira elétrica",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 6,
+        title: "Cafeteira",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 7,
+        title: "Liquidificador",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 8,
+        title: "Microondas",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 9,
+        title: "Mix/multiprocessador",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 10,
+        title: "Sanduicheira",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 11,
+        title: "Panela de pressão",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 12,
+        title: "Forno elétrico",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 13,
+        title: "Faqueiro",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 14,
+        title: "Fruteira",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 15,
+        title: "Escorredor de pia",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 16,
+        title: "Kit pano de prato",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 17,
+        title: "Aparelho de jantar",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 18,
+        title: "Kit frigideiras",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 19,
+        title: "Kit assadeiras",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 20,
+        title: "Jogo de canecas",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 21,
+        title: "Jogo de copos",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 22,
+        title: "Kit porta tempero",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 23,
+        title: "Tigelas",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 24,
+        title: "Jogo americano",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+      },
+      {
+        id: 25,
+        title: "Quero contribuir com PIX",
+        description: "Ajude diretamente!",
+        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
       },
     ],
     quarto: [
       {
-        id: 3,
-        title: "Cama",
+        id: 1,
+        title: "Cabide",
         description: "Tá baratinho, pow",
-        link: "https://www.magazineluiza.com.br/cama-box/p/hb82878gcd/et/cama/",
+        link: "https://www.magazineluiza.com.br/cabide/p/hb82878gcd/",
+      },
+      {
+        id: 2,
+        title: "Jogo de cama",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/jogo-de-cama/p/hb82878gcd/",
+      },
+      {
+        id: 3,
+        title: "Ventilador",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/ventilador/p/hb82878gcd/",
       },
       {
         id: 4,
         title: "Guarda-roupa",
-        description: "Pra guardar tudo organizadinho",
-        link: "https://www.magazineluiza.com.br/guarda-roupa/p/fd4h6f47ea/et/guar/",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/guarda-roupa/p/hb82878gcd/",
+      },
+      {
+        id: 5,
+        title: "Kit cobre leito",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/kit-cobre-leito/p/hb82878gcd/",
+      },
+      {
+        id: 6,
+        title: "Tapete",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/tapete/p/hb82878gcd/",
+      },
+      {
+        id: 7,
+        title: "Abajur",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/abajur/p/hb82878gcd/",
+      },
+      {
+        id: 8,
+        title: "Criado mudo",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/criado-mudo/p/hb82878gcd/",
+      },
+      {
+        id: 9,
+        title: "Travesseiro",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/travesseiro/p/hb82878gcd/",
+      },
+      {
+        id: 10,
+        title: "Ferro de passar",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/ferro-de-passar/p/hb82878gcd/",
+      },
+      {
+        id: 11,
+        title: "Tábua de passar",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/tabua-de-passar/p/hb82878gcd/",
+      },
+      {
+        id: 12,
+        title: "Quero contribuir com PIX",
+        description: "Ajude diretamente!",
+        link: "https://www.magazineluiza.com.br/contribua-com-pix/p/hb82878gcd/",
       },
     ],
     sala: [
       {
-        id: 5,
+        id: 1,
+        title: "Sofá",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/sofa/p/hb82878gcd/",
+      },
+      {
+        id: 2,
         title: "Televisão",
-        description: "Pra assistir os doramas com qualidade",
-        link: "https://www.magazineluiza.com.br/tv/p/hb82878gcd/et/tv/",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/televisao/p/hb82878gcd/",
+      },
+      {
+        id: 3,
+        title: "Painel/hack para TV",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/painel-para-tv/p/hb82878gcd/",
+      },
+      {
+        id: 4,
+        title: "Mesa de centro",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/mesa-de-centro/p/hb82878gcd/",
+      },
+      {
+        id: 5,
+        title: "Cortina",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/cortina/p/hb82878gcd/",
       },
       {
         id: 6,
-        title: "Sofá",
-        description: "Pra relaxar enquanto assiste TV",
-        link: "https://www.magazineluiza.com.br/sofa/p/fd4h6f47ea/et/sofa/",
+        title: "Ventilador",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/ventilador/p/hb82878gcd/",
+      },
+      {
+        id: 7,
+        title: "Quero contribuir com PIX",
+        description: "Ajude diretamente!",
+        link: "https://www.magazineluiza.com.br/contribua-com-pix/p/hb82878gcd/",
       },
     ],
     banheiro: [
       {
-        id: 7,
-        title: "Toalha",
-        description: "Pra se secar com estilo",
-        link: "https://www.magazineluiza.com.br/toalha/p/hb82878gcd/et/toal/",
+        id: 1,
+        title: "Cesto de roupa",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/cesto-de-roupa/p/hb82878gcd/",
       },
       {
-        id: 8,
-        title: "Saboneteira",
-        description: "Pra deixar tudo organizado",
-        link: "https://www.magazineluiza.com.br/saboneteira/p/fd4h6f47ea/et/sabo/",
+        id: 2,
+        title: "Kit acessórios de banheiro",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/kit-acessorios-banheiro/p/hb82878gcd/",
+      },
+      {
+        id: 3,
+        title: "Kit toalha de banho+rosto",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/kit-toalha-banho-rosto/p/hb82878gcd/",
+      },
+      {
+        id: 4,
+        title: "Roupão",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/roupao/p/hb82878gcd/",
+      },
+      {
+        id: 5,
+        title: "Tapete",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/tapete/p/hb82878gcd/",
+      },
+      {
+        id: 6,
+        title: "Chuveiro",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/chuveiro/p/hb82878gcd/",
+      },
+      {
+        id: 7,
+        title: "Quero contribuir com PIX",
+        description: "Ajude diretamente!",
+        link: "https://www.magazineluiza.com.br/contribua-com-pix/p/hb82878gcd/",
       },
     ],
-    limpeza: [
+    lavanderia: [
       {
-        id: 9,
-        title: "Vassoura",
-        description: "Pra deixar a casa limpinha",
-        link: "https://www.magazineluiza.com.br/vassoura/p/hb82878gcd/et/limp/",
+        id: 1,
+        title: "Moop",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/moop/p/hb82878gcd/",
       },
       {
-        id: 10,
-        title: "Rodo",
-        description: "Pra finalizar a limpeza",
-        link: "https://www.magazineluiza.com.br/rodo/p/fd4h6f47ea/et/rodo/",
+        id: 2,
+        title: "Kit baldes/bacias retráteis",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/kit-baldes-bacias-retrateis/p/hb82878gcd/",
+      },
+      {
+        id: 3,
+        title: "Tanquinho",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/tanquinho/p/hb82878gcd/",
+      },
+      {
+        id: 4,
+        title: "Aspirador de pó",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/aspirador-de-po/p/hb82878gcd/",
+      },
+      {
+        id: 5,
+        title: "Furadeira",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/furadeira/p/hb82878gcd/",
+      },
+      {
+        id: 6,
+        title: "Parafusadeira",
+        description: "Tá baratinho, pow",
+        link: "https://www.magazineluiza.com.br/parafusadeira/p/hb82878gcd/",
+      },
+      {
+        id: 7,
+        title: "Quero contribuir com PIX",
+        description: "Ajude diretamente!",
+        link: "https://www.magazineluiza.com.br/contribua-com-pix/p/hb82878gcd/",
       },
     ],
   };
 
   return (
-    <section className="text-gray-600 body-font py-12">
+    <section className="text-[#394C40] body-font py-12">
       <div className="container mx-auto xl:w-8/12 sm:w-11/12 px-5">
-        <h1 className="text-3xl font-bold text-center mb-8">Lista de Presentes</h1>
+        <h1 className="text-3xl text-[#536E5C] font-bold text-center mb-8">Lista de Presentes</h1>
         <div id="accordion-flush" data-accordion="collapse">
           {Object.entries(sections).map(([sectionName, items], index) => (
             <div key={sectionName}>
@@ -127,7 +415,7 @@ const Gifts = () => {
                   {items.map((item) => (
                     <div
                       key={item.id}
-                      className="mb-1 px-4 py-1 bg-white rounded-lg shadow"
+                      className="mb-1 px-4 py-2 bg-white rounded-lg shadow"
                     >
                       <div className="flex items-center justify-between">
                         <h3 className="font-semibold">{item.title}</h3>
