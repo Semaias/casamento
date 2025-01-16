@@ -3,9 +3,9 @@
 import React, { useState } from "react";
 
 const Gifts = () => {
-  const [openAccordion, setOpenAccordion] = useState(null);
+  const [openAccordion, setOpenAccordion] = useState<string | null>(null);
 
-  const handleToggle = (section) => {
+  const handleToggle = (section: keyof typeof sections) => {
     setOpenAccordion(openAccordion === section ? null : section);
   };
 
@@ -93,7 +93,7 @@ const Gifts = () => {
                 <button
                   type="button"
                   className="flex items-center justify-between w-full py-4 font-bold text-lg text-gray-500 border-b border-gray-200"
-                  onClick={() => handleToggle(sectionName)}
+                  onClick={() => handleToggle(sectionName as keyof typeof sections)}
                   aria-expanded={openAccordion === sectionName}
                   aria-controls={`accordion-flush-body-${index}`}
                 >
@@ -102,9 +102,8 @@ const Gifts = () => {
                   </span>
                   <svg
                     data-accordion-icon
-                    className={`w-3 h-3 transition-transform ${
-                      openAccordion === sectionName ? "rotate-180" : ""
-                    }`}
+                    className={`w-3 h-3 transition-transform ${openAccordion === sectionName ? "rotate-180" : ""
+                      }`}
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 10 6"
