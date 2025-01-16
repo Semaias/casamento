@@ -3,47 +3,101 @@ import Image from 'next/image';
 const Features = () => {
 
 
-// Dados dos itens
-const items = [
-  { id: 1, icon: "/clock_icon.svg", title: "Item 1", description: "Descrição do item 1" },
-  { id: 2, icon: "/js.jpg", title: "Item 2", description: "Descrição do item 2" },
-  { id: 3, icon: "/js.jpg", title: "Item 3", description: "Descrição do item 3" },
-  { id: 4, icon: "/js.jpg", title: "Item 4", description: "Descrição do item 4" },
-  { id: 5, icon: "/js.jpg", title: "Item 5", description: "Descrição do item 5" },
-  { id: 6, icon: "/js.jpg", title: "Item 6", description: "Descrição do item 6" },
-  { id: 7, icon: "/js.jpg", title: "Item 7", description: "Descrição do item 7" },
-  { id: 8, icon: "/js.jpg", title: "Item 8", description: "Descrição do item 8" },
-];
+  // Dados dos itens
+  const items = [
+    {
+      id: 1,
+      icon: "/confirmPresence.svg",
+      title: "Confirme sua presença.",
+      description: ""
+    },
+    {
+      id: 2,
+      icon: "/bePolite.svg",
+      title: "Seja educado com todos.",
+      description: ""
+    },
+    {
+      id: 3,
+      icon: "/haveFun.svg",
+      title: "Aproveitem bastante!",
+      description: ""
+    },
+    {
+      id: 4,
+      icon: "/dress.svg",
+      title: "BRANCO É A COR DA NOIVA!",
+      description: ""
+    },
+    // { id: 5,
+    //   icon: "/insta.svg",
+    //   title: "Lembrem de nos marcar", 
+    //   description: ""
+    // },
+    {
+      id: 5,
+      icon: "/cake.svg",
+      title: "Não ataquem a mesa de doces!",
+      description: ""
+    },
+    {
+      id: 6,
+      icon: "/noPhone.svg",
+      title: "NÃO ATRAPALHE OS FOTÓGRAFOS!",
+      description: ""
+    },
+    {
+      id: 7,
+      icon: "/hug.svg",
+      title: "Não saiam sem se despedir dos noivos!",
+      description: ""
+    },
+    {
+      id: 8,
+      icon: "/guestDontInvite.svg",
+      title: "Convidado não convida!",
+      description: ""
+    },
+    {
+      id: 9,
+      icon: "/gift.svg",
+      title: "Os presentes devem ser entregues antes da cerimônia.",
+      description: ""
+    },
+  ];
 
 
 
-return (
-  <section className="py-16 bg-gray-100">
-      <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Informações Adicionais</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
+  return (
+    <section className="bg-[#DDEBE180]">
+
+      <div className="max-w-7xl px-5 mt-32 py-10">
+        <h2 className="text-3xl font-black text-[#394C40] text-center pb-10">
+          Manual do Convidado
+        </h2>
+        <div className="grid grid-cols-3 text-center sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-1 sm:gap-2 md:gap-6 lg:gap-10">
           {items.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
+              className="flex flex-col items-center justify-start p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
             >
               <div className="mb-4">
                 <Image
                   src={item.icon}
                   alt={item.title}
-                  width={80}
-                  height={80}
-                  className="rounded-full"
+                  width={100}
+                  height={100}
+                  className="p-3"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-              <p className="text-gray-500 text-center">{item.description}</p>
+              <h3 className="text-sm text-[#394C40] font-semibold mb-2">{item.title}</h3>
+              <p className="text-center">{item.description}</p>
             </div>
           ))}
         </div>
       </div>
     </section>
-);
+  );
 };
 
 export default Features

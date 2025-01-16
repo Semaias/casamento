@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const Gallery = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-[#394C40] body-font">
       <div className="container px-5 lg:px-52 md:px-40 py-24 mx-auto">
         <div className="flex flex-col w-full text-justify mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium text-center title-font mb-4 text-gray-900">
+          <h2 className="sm:text-3xl text-2xl font-black text-center title-font mb-4 text-[#8DBA9C]">
             Nossa história
-          </h1>
+          </h2>
 
           <p className="lg:w-2/3 mx-auto indent-6 leading-relaxed p-1 text-base">
             Olá, somos Janielle e Semaias e VAMOS CASAAARR!!! Muita coisa aconteceu até esse dia chegar, então vamos resumir um pouco.</p>

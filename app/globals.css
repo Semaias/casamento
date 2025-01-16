@@ -15,6 +15,12 @@ body {
   font-family: "Montserrat";
 }
 
+  /* cor clara #87B295 */
+  /* cor base #8DBA9C */
+  /* cor médio escuro #536E5C */
+  /* cor escura #394C40 */
+
+
 @layer utilities {
   .btn_white { 
     @apply  border-white bg-white px-8 py-3 text-green-50

@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className="relative flex items-center justify-center h-[80vh] bg-cover bg-center text-white"
-      style={{ backgroundImage: "url('/altar.jpg')" }}>
+      style={{ backgroundImage: "url('/banner.png')" }}>
 
       <div className="absolute inset-0 bg-black opacity-50"></div>
 

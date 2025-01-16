@@ -6,55 +6,55 @@ import Image from "next/image";
 const Timeline = () => {
   const timelineItems = [
     {
-      imgSrc: "/lt01.jpeg",
-      caption: "Onde tudo oficialmente começou",
-      date: "28 Dez 2022",
-      description: "Um dia de nervosismo para ambos os lados, mas o amor a tudo superou.",
-      icon: null,
-    },
-    {
       imgSrc: "/lt02.jpeg",
-      caption: "Primeira aliança",
+      caption: "Onde tudo oficialmente começou",
       date: "01 Jan 2023",
-      description: "Oficialmente namorados. O início da nossa história.",
+      description: "O primeiro passo aconteceu em uma noite linda, coberta por fogos que iluminavam nossos corações e nos presenteava com a primeira aliança, simbolizando o laço que Deus nos preparou.",
       icon: null,
     },
     {
-      imgSrc: "/lt03.jpeg",
-      caption: "Item 3 - Descrição",
-      date: "01 Jan 2023",
-      description: "ffasdfonasdçjoifnsadjifna sdçlkfjnsalkdjfnasl dkfjnsaldkfjnsadlkjffn.",
+      imgSrc: "/lt04.jpeg",
+      caption: "Concretização de um novo caminho",
+      date: "10 Abr 2023",
+      description: "O início da carreira profissional, acompanhada de sorrisos orgulhosos e um amor que ofereceu suporte em todos momentos.",
+      icon: null,
+    },
+    {
+      imgSrc: "/lt06.jpeg",
+      caption: "Bodas de Milagre ",
+      date: "28 Dez 2023",
+      description: "Primeiro ano compartilhando a vida. Recordar cada momento precioso, as risadas e os desafios nos fizeram mais fortes. Essa construção nos ofereceu uma base sólida para nosso relacionamento.",
       icon: null
     },
     {
-      imgSrc: "/lt04.jpeg",
-      caption: "Novo marco",
-      date: "01 Jan 2023",
-      description: "sdpifmasçodkfmças ldkfmçasldkasdaçsljdmaolsçk djnmalsjdmnlaskjdnmsakljdm.",
+      imgSrc: "/lt07.jpeg",
+      caption: "O Pedido",
+      date: "19 Mai 2024",
+      description: "Dia inesquecível que marcou nossos corações com o segundo passo. A segunda aliança testemunha o nosso desejo de subir ao altar para realizarmos o propósito que o Senhor nos entregou.",
       icon: null
     },
     {
-      imgSrc: "/lt04.jpeg",
-      caption: "Novo marco",
-      date: "01 Jan 2023",
-      description: "sdpifmasçodkfmças ldkfmçasldkasdaçsljdmaolsçk djnmalsjdmnlaskjdnmsakljdm.",
+      imgSrc: "/lt09.jpeg",
+      caption: "Bodas de Dedo-de-Moça",
+      date: "28 Dec 2024",
+      description: "Felizes por viver tudo que o Senhor nos proporcionou em mais um ano de relacionamento, e ansiosos para o ato que vem a ser o mais importante de nossas vidas.",
       icon: null
     },
     {
-      imgSrc: "/lt04.jpeg",
-      caption: "Novo marco",
-      date: "01 Jan 2023",
-      description: "sdpifmasçodkfmças ldkfmçasldkasdaçsljdmaolsçk djnmalsjdmnlaskjdnmsakljdm.",
+      imgSrc: "/lt10.jpeg",
+      caption: "É 2025!!!",
+      date: "01 Jan 2025",
+      description: "A contagem regressiva começou. Aguardamos ansiosos o momento em que se juntarão a nós para celebrarmos nossa união com a bênção de Deus",
       icon: null
     },
   ];
 
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-[#394C40] bg-[#DDEBE180] body-font pb-10 -mt-20">
 
-      <h2 className="text-center text-2xl font-bold -mt-10">Nossa linha do tempo</h2>
+      <h2 className="text-center text-2xl font-black text-[#536E5C] pt-20">Nossa linha do tempo</h2>
 
-      <div className="container px-5 py-24 mx-auto flex flex-wrap">
+      <div className="container px-5 py-10 mx-auto flex flex-wrap">
         {timelineItems.map((item, index) => (
           <div
             key={index}
@@ -63,11 +63,11 @@ const Timeline = () => {
           >
             {/* Peste da linha que vai em pé */}
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-              <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              <div className="h-full w-1 bg-[#87B295] pointer-events-none"></div>
             </div>
 
             {/* Porcaria do número que marca cada passo */}
-            <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+            <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#87B295] text-white relative z-10 title-font font-medium text-sm">
               {index + 1}
             </div>
 
@@ -86,11 +86,11 @@ const Timeline = () => {
                 )}
               </div>
               <div className="sm:pl-6 text-center sm:text-left">
-                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
+                <h2 className="font-bold title-font text-[#536E5C] mb-1 text-xl">
                   {item.caption}
                 </h2>
-                <p className="leading-relaxed">{item.date}</p>
-                <p className="text-gray-600 mt-2">{item.description}</p>
+                <p className="text-[#394C40] font-light leading-relaxed">{item.date}</p>
+                <p className="text-[#394C40] mt-2">{item.description}</p>
               </div>
             </div>
           </div>

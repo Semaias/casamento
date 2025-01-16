@@ -21,10 +21,10 @@ const Navbar: React.FC = () => {
   }, [isOpen]);
 
   return (
-    <nav className="bg-white z-50 p-4 shadow-lg justify-center items-center fixed top-0 left-0 w-full z-30"> {/* fixed navbar no topo */}
+    <nav className="bg-white z-50 p-4 shadow-lg justify-center items-center fixed top-0 left-0 w-full"> {/* fixed navbar no topo */}
       <div className="max-w-7xl ml-11 mx-auto flex items-center justify-between">
         {/* LOGO */}
-        <div className="text-gray-700 text-xl font-bold">
+        <div className="text-[#8DBA9C] text-xl font-bold">
           <Link href="/">
             <Image src="/js.jpg" width={32} height={32} alt={'monograma do casal'} />
           </Link>
@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
 
         {/* Botão de Menu (hamburger) */}
         <div className="ml-auto mr-11 lg:hidden">
-          <button onClick={toggleMenu} className="text-gray-700 focus:outline-none z-30">
+          <button onClick={toggleMenu} className="text-[#8DBA9C] focus:outline-none z-30">
             <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'} />
             </svg>
@@ -40,13 +40,13 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* MENU ICON (for desktop) */}
-        <div className="hidden mr-11 text-gray-700 lg:flex space-x-4">
-          <Link href="/#history" className="hover:font-bold">Nossa História</Link>
-          <Link href="/#gallery" className="hover:font-bold">Galeria</Link>
-          <Link href="/#location" className="hover:font-bold">Localização</Link>
-          <Link href="/" className="hover:font-bold">Manual</Link>
-          <Link href="/" className="hover:font-bold">Confirmação</Link>
-          <Link href="/" className="hover:font-bold">Presentes</Link>
+        <div className="hidden font-medium mr-11 text-[#8DBA9C] lg:flex space-x-4">
+          <Link href="/#history" className="hover:font-bold transition-all duration-300">Nossa História</Link>
+          <Link href="/#gallery" className="hover:font-bold transition-all duration-300">Galeria</Link>
+          <Link href="/#location" className="hover:font-bold transition-all duration-300">Localização</Link>
+          <Link href="/" className="hover:font-bold transition-all duration-300">Manual</Link>
+          <Link href="/" className="hover:font-bold transition-all duration-300">Confirmação</Link>
+          <Link href="/" className="hover:font-bold transition-all duration-300">Presentes</Link>
         </div>
       </div>
 
