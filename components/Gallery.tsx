@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Gallery = () => {
   return (
-    <section className="text-[#394C40]  body-font">
+    <section className="text-[#394C40] mt-20 body-font">
       <div className="container px-5 lg:px-52 md:px-40 mx-auto">
         <div className="flex flex-col w-full text-justify mb-20">
           <h2 className="sm:text-3xl text-2xl font-black text-center title-font mb-4 text-[#8DBA9C]">
@@ -15,7 +15,7 @@ const Gallery = () => {
             Olá, somos Janielle e Semaias e VAMOS CASAAARR!!! Muita coisa aconteceu até esse dia chegar, então vamos resumir um pouco.</p>
 
           <div className="flex my-5 relative ">
-            <Image width={100} height={100} alt="gallery" className="relative inset-0 w-full h-full object-cover object-center" src="/ft01.jpeg" />
+            <Image width={100} height={100} alt="gallery" className="relative inset-0  w-full h-full object-cover object-center" src="/ft01.jpeg" />
           </div>
 
           <p className="lg:w-2/3 mx-auto indent-6 leading-relaxed p-1 text-base">

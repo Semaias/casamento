@@ -15,7 +15,7 @@ const Gifts = () => {
         id: 1,
         title: "Armário",
         description: "Tá baratinho, pow",
-        link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
+        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20um%20%2AArm%C3%A1rio%2A.%20Como%20posso%20fazer%3F",
       },
       {
         id: 2,
@@ -61,7 +61,7 @@ const Gifts = () => {
       },
       {
         id: 9,
-        title: "Mix/multiprocessador",
+        title: "Mix/ multiprocessador",
         description: "Tá baratinho, pow",
         link: "https://www.magazineluiza.com.br/geladeira-degelo-pratico-amarela-01-eletrolux/p/hb82878gcd/ed/refr/",
       },
@@ -333,7 +333,7 @@ const Gifts = () => {
       },
       {
         id: 2,
-        title: "Kit baldes/bacias retráteis",
+        title: "Kit baldes/ bacias retráteis",
         description: "Tá baratinho, pow",
         link: "https://www.magazineluiza.com.br/kit-baldes-bacias-retrateis/p/hb82878gcd/",
       },
@@ -417,13 +417,18 @@ const Gifts = () => {
                       key={item.id}
                       className="mb-1 px-4 py-2 bg-white rounded-lg shadow"
                     >
-                      <div className="flex items-center justify-between">
-                        <h3 className="font-semibold">{item.title}</h3>
+                      <div 
+                      className="grid grid-cols-12 items-center justify-between
+                      sm:text-[10pt] md:text-[12pt] lg:text-[16pt] xl:text-[24pt]">
+                        <h3
+                          className="font-semibold text-pretty col-span-7">
+                          {item.title}
+                        </h3>
                         <a
                           href={item.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex text-white text-center bg-[#87B295] rounded p-3 items-center hover:underline"
+                          className="inline-flex col-span-5 text-white text-center bg-[#87B295] rounded p-3 items-center hover:underline"
                         >
                           Quero te presentear
                         </a>
