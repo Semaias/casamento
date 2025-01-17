@@ -421,14 +421,14 @@ const Gifts = () => {
                       className="grid grid-cols-12 items-center justify-between
                       sm:text-[10pt] md:text-[12pt] lg:text-[16pt] xl:text-[24pt]">
                         <h3
-                          className="font-semibold text-pretty col-span-7">
+                          className="font-semibold col-span-7">
                           {item.title}
                         </h3>
                         <a
                           href={item.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex col-span-5 text-white text-center bg-[#87B295] rounded p-3 items-center hover:underline"
+                          className="inline-flex col-span-5 text-white text-center justify-center bg-[#87B295] rounded p-3 items-center hover:underline"
                         >
                           Quero te presentear
                         </a>
