@@ -19,7 +19,7 @@ const HeroCard = () => {
                     </h5>
                 </a>
                 <p className="mb-3 font-normal text-[#394C40] ">
-                    Estamos felizes em poder compartilar esse momento com todos vocês!
+                    Estamos felizes em poder compartilhar esse momento com todos vocês!
                 </p>
             </div>
         </div>

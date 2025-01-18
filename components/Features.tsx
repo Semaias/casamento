@@ -69,10 +69,10 @@ const Features = () => {
 
 
   return (
-    <section className="">
+    <section id='manual-do-convidado' className="pt-20">
 
       <div className="max-w-7xl px-5 mt-20 py-10">
-        <h2 className="text-3xl font-black text-[#394C40] text-center pb-10">
+        <h2 className="text-3xl text-[#536E5C] font-bold text-center pb-10">
           Manual do Convidado
         </h2>
         <div className="grid grid-cols-3 text-center sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-1 sm:gap-2 md:gap-6 lg:gap-10">

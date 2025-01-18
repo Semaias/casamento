@@ -2,12 +2,11 @@ import React from 'react'
 
 const Guide = () => {
   return (
-    <section className="text-[#536E5C]  body-font relative" id="location">
-
+    <section className="text-[#536E5C] body-font relative" id="location">
 
       <div className="absolute inset-0">
         <div className='text-center justify-center'>
-          <h3 className='text-3xl text-[#394C40] font-black pb-5'> Localização</h3>
+          <h2 className='text-3xl text-[#536E5C] font-bold pt-20 mb-5'>Localização</h2>
         </div>
 
         <iframe width="100%" height="100%" title="map"

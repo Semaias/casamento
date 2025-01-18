@@ -30,13 +30,13 @@ const Hero: React.FC = () => {
   }, [targetDate]);
 
   return (
-    <section className="relative flex items-center justify-center h-[80vh] bg-cover bg-center text-white"
+    <section id="nossa-história" className="relative flex items-center justify-center h-[80vh] bg-cover bg-center text-white"
       style={{ backgroundImage: "url('/banner.png')" }}>
 
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       <div className="relative z-10 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">SAVE THE DATE</h1>
+        <h1 className="text-4xl md:text-6xl font-black tracking-widest mb-4">SAVE THE DATE</h1>
         <h2 className="text-2xl md:text-4xl mb-8">Nosso grande dia está chegando</h2>
 
         {/* Contagem regressiva */}

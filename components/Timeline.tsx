@@ -50,9 +50,9 @@ const Timeline = () => {
   ];
 
   return (
-    <section className="text-[#394C40]  body-font pb-10 -mt-20">
+    <section id="timeline" className="text-[#394C40] body-font -mt-20">
 
-      <h2 className="text-center text-2xl font-black text-[#536E5C] pt-20">Nossa linha do tempo</h2>
+      <h2 className="text-3xl text-[#536E5C] font-bold text-center pt-20">Nossa linha do tempo</h2>
 
       <div className="container px-5 py-10 mx-auto flex flex-wrap">
         {timelineItems.map((item, index) => (
