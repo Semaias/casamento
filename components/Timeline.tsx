@@ -44,7 +44,7 @@ const Timeline = () => {
       imgSrc: "/lt10.jpeg",
       caption: "É 2025!!!",
       date: "01 Jan 2025",
-      description: "A contagem regressiva começou. Aguardamos ansiosos o momento em que se juntarão a nós para celebrarmos nossa união com a bênção de Deus",
+      description: "A contagem regressiva começou. Aguardamos ansiosos o momento em que se juntarão a nós para celebrarmos nossa união com a bênção de Deus.",
       icon: null
     },
   ];

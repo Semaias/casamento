@@ -9,7 +9,7 @@ const Guide = () => {
           <h2 className='text-3xl text-[#536E5C] font-bold pt-20 mb-5'>Localização</h2>
         </div>
 
-        <iframe width="100%" height="100%" title="map"
+        <iframe className='bg-[#DDEBE100]' width="100%" height="100%" title="map"
           scrolling="no"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.280656981064!2d-35.20724592590542!3d-6.092845459767039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b28b319a0d7f6d%3A0x88eed99112ebf48!2sNyzia%20Garden%20Recep%C3%A7%C3%B5es!5e0!3m2!1spt-BR!2sbr!4v1729283320016!5m2!1spt-BR!2sbr"
         ></iframe>
@@ -34,7 +34,7 @@ const Guide = () => {
           </a>
 
           <a
-            href="https://wa.me/5584994738643"
+            href="https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20confirmar%20a%20minha%20presen%C3%A7a%20na%20cerim%C3%B4nia%20do%20casamento."
             target="_blank"
             rel="noopener noreferrer"
             className="text-white bg-[#536E5C] border-0 py-2 px-6 focus:outline-none hover:bg-[#394C40] rounded text-lg"

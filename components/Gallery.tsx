@@ -36,7 +36,7 @@ const Gallery = () => {
               exatamente quando nos conhecemos, mas sabemos que durante a
               infância estudamos nas mesmas escolas e em diferentes turnos. Ao
               fim do ensino fundamental seguimos rumos acadêmicos diferentes:
-              Sesi Natal - IFRN Campus Canguaretama.
+              SESI Natal - IFRN Campus Canguaretama.
             </p>
             <Image
               width={500}

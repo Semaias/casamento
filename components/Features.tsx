@@ -43,7 +43,7 @@ const Features = () => {
     {
       id: 6,
       icon: "/noPhone.svg",
-      title: "Não atrapaçhe os fotógrafos!",
+      title: "Não atrapalhe os fotógrafos!",
       description: ""
     },
     {
