@@ -19,8 +19,8 @@ const Footer = () => {
         <p className="text-balance text-center text-sm text-[#394C40] sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-[#394C40] sm:py-2 sm:mt-0 mt-4">© 2025 Semaias Rangel — Todos os direitos reservados
         </p>
 
-
         <span className="inline-flex text-[#394C40] sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          
           {/* Ícone do WhatsApp */}
           <a href="https://wa.me/5584994738643" target="_blank" rel="noopener noreferrer" className="text-[#394C40]">
             <img src="/whatsapp.svg" alt="WhatsApp" className="w-7 h-7" />
@@ -40,8 +40,9 @@ const Footer = () => {
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="ml-3 text-[#394C40]">
             <img src="/facebook.svg" alt="Facebook" className="w-7 h-7" />
           </a>
+
         </span>
-        
+
       </div>
     </footer>
   )
