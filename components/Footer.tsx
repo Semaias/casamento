@@ -41,10 +41,7 @@ const Footer = () => {
             <img src="/facebook.svg" alt="Facebook" className="w-7 h-7" />
           </a>
         </span>
-
-
-
-
+        
       </div>
     </footer>
   )
