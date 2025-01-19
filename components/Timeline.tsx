@@ -36,7 +36,7 @@ const Timeline = () => {
     {
       imgSrc: "/lt09.jpeg",
       caption: "Bodas de Dedo-de-Moça",
-      date: "28 Dec 2024",
+      date: "28 Dez 2024",
       description: "Felizes por viver tudo que o Senhor nos proporcionou em mais um ano de relacionamento, e ansiosos para o ato que vem a ser o mais importante de nossas vidas.",
       icon: null
     },

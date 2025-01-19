@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
 
         {/* Botão de Menu (hamburger) */}
         <div className="ml-auto mr-11 lg:hidden">
-          <button onClick={toggleMenu} className="text-[#8DBA9C] focus:outline-none z-30">
+          <button onClick={toggleMenu} className="text-[#394C40] focus:outline-none z-30">
             <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'} />
             </svg>
