@@ -16,10 +16,10 @@ const HeroCard = () => {
                         className="object-cover object-center mb-3"
                     />
                 </div>
-                <h5 className="uppercase mb-2 px-6 pt-6 text-2xl font-black text-[#394C40] tracking-tight ">
+                <h2 className="capitalize mb-2 px-6 pt-6 text-3xl font-black text-[#394C40] tracking-tight ">
                     Janielle & Semaias
-                </h5>
-                <p className="mb-3 px-6 font-normal text-[#394C40] ">
+                </h2>
+                <p className="mb-3 px-6 font-medium text-[#394C40] ">
                     Estamos felizes em poder compartilhar esse momento com todos vocês!
                 </p>
             </div>
