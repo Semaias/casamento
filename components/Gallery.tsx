@@ -84,7 +84,7 @@ const Gallery = () => {
           </div>
 
           <div className="text-center">
-            <p className="indent-6 leading-relaxed text-base">
+            <p className="leading-relaxed text-base">
               O amor venceu e vocês estão prestes e vivenciar o ápice dessa
               união.
             </p>
