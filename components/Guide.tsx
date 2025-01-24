@@ -16,7 +16,7 @@ const Guide = () => {
       </div>
       <div className="container text-center px-5 py-48 mx-auto flex">
         <div
-          className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+          className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-28 md:mt-0 relative z-10 shadow-md">
           <h3 className="text-xl mb-1 font-black">Não se perca!</h3>
           <p className="leading-relaxed mb-1">
             Sua presença é muito importante para nós! <br /> Por isso, <span className='font-bold'>confirme até 1° de maio</span>, para sabermos quem estará conosco neste dia especial.

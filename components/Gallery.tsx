@@ -65,7 +65,7 @@ const Gallery = () => {
             />
           </div>
 
-          <div className="flex flex-col lg:flex-row-reverse items-center  gap-y-5 lg:gap-x-10 mb-10">
+          <div className="flex flex-col lg:flex-row-reverse items-center gap-y-5 lg:gap-x-10 mb-10">
             <p className="lg:w-1/2 indent-6 leading-relaxed text-base">
               Passou um ano nesse ritmo até que o grande dia chega: a defesa de
               um TCC, 15 de dezembro de 2022. Janielle não esperava, mas Semaias
@@ -84,8 +84,8 @@ const Gallery = () => {
           </div>
 
           <div className="text-center">
-            <p className="leading-relaxed text-base">
-              O amor venceu e vocês estão prestes e vivenciar o ápice dessa
+            <p className="leading-relaxed text-base font-normal">
+            <span className="font-bold">O amor venceu </span> e vocês estão prestes e vivenciar o ápice dessa
               união.
             </p>
             <Image
@@ -98,7 +98,7 @@ const Gallery = () => {
           </div>
 
           <div className="text-center mt-10">
-            <p className="leading-relaxed text-sm">
+            <p className="leading-relaxed text-base px-3">
               E Deus disse:{" "}
               <span className="italic">
                 “por isso o homem deixa o seu pai e a sua mãe para se unir com a

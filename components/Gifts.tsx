@@ -422,7 +422,7 @@ const Gifts = () => {
                 aria-labelledby={`accordion-flush-heading-${index}`}
               >
                 <div className="py-5 border-b border-[#8dba9cbb]">
-                  <div className="grid grid-cols-1 md:grid-cols-2 md:gap-3">
+                  <div className="grid grid-cols-1 md:grid-cols-2 md:gap-3 lg:grid-cols-3">
                     {items.map((item) => (
                       <div
                         key={item.id}
