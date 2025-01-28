@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from 'next/link';
 
 const Gifts = () => {
   const [openAccordion, setOpenAccordion] = useState<string | null>(null);
@@ -239,7 +240,7 @@ const Gifts = () => {
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2Auma%20contribui%C3%A7%C3%A3o%20via%20PIX%2A.%20Como%20posso%20fazer%3F",
       },
     ],
-    
+
     sala: [
       {
         id: 1,
@@ -284,7 +285,7 @@ const Gifts = () => {
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2Auma%20contribui%C3%A7%C3%A3o%20via%20PIX%2A.%20Como%20posso%20fazer%3F",
       },
     ],
-    
+
     banheiro: [
       {
         id: 1,
@@ -329,7 +330,7 @@ const Gifts = () => {
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2Auma%20contribui%C3%A7%C3%A3o%20via%20PIX%2A.%20Como%20posso%20fazer%3F",
       },
     ],
-    
+
     lavanderia: [
       {
         id: 1,
@@ -374,11 +375,11 @@ const Gifts = () => {
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2Auma%20contribui%C3%A7%C3%A3o%20via%20PIX%2A.%20Como%20posso%20fazer%3F",
       },
     ],
-    
+
   };
 
   return (
-    <section id="lista-de-presentes" className="text-[#394C40] body-font py-12">
+    <section id="lista-de-presentes" className="text-[#394C40] body-font pt-20">
       <div className="container mx-auto xl:w-8/12 sm:w-11/12 px-5">
         <h1 className="text-3xl text-[#536E5C] font-bold text-center mb-8">
           Lista de Presentes
@@ -386,35 +387,37 @@ const Gifts = () => {
         <div id="accordion-flush" data-accordion="collapse">
           {Object.entries(sections).map(([sectionName, items], index) => (
             <div key={sectionName}>
-              <h2 id={`accordion-flush-heading-${index}`}>
-                <button
-                  type="button"
-                  className="flex items-center justify-between w-full py-4 font-bold text-xl text-[#536E5C] border-b border-[#536E5CBB]"
-                  onClick={() => handleToggle(sectionName as keyof typeof sections)}
-                  aria-expanded={openAccordion === sectionName}
-                  aria-controls={`accordion-flush-body-${index}`}
-                >
-                  <span>
-                    {sectionName.charAt(0).toUpperCase() + sectionName.slice(1)}
-                  </span>
-                  <svg
-                    data-accordion-icon
-                    className={`w-3 h-3 transition-transform	 ${openAccordion === sectionName ? "rotate-180" : ""
-                      }`}
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
+              <Link href={`#lista-de-presentes`} >
+                <h2 id={`accordion-flush-heading-${index}`}>
+                  <button
+                    type="button"
+                    className="flex items-center justify-between w-full py-4 font-bold text-xl text-[#536E5C] border-b border-[#536E5CBB]"
+                    onClick={() => handleToggle(sectionName as keyof typeof sections)}
+                    aria-expanded={openAccordion === sectionName}
+                    aria-controls={`accordion-flush-body-${index}`}
                   >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 5 5 1 1 5"
-                    />
-                  </svg>
-                </button>
-              </h2>
+                    <span>
+                      {sectionName.charAt(0).toUpperCase() + sectionName.slice(1)}
+                    </span>
+                    <svg
+                      data-accordion-icon
+                      className={`w-3 h-3 transition-transform	 ${openAccordion === sectionName ? "rotate-180" : ""
+                        }`}
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 6"
+                    >
+                      <path
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M9 5 5 1 1 5"
+                      />
+                    </svg>
+                  </button>
+                </h2>
+              </Link>
               <div
                 id={`accordion-flush-body-${index}`}
                 className={`${openAccordion === sectionName ? "block" : "hidden"
