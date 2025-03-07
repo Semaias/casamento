@@ -34,7 +34,7 @@ const Guide = () => {
           </a>
 
           <a
-            href="https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20confirmar%20a%20minha%20presen%C3%A7a%20na%20cerim%C3%B4nia%20do%20casamento."
+            href="https://assessoriavip.com.br/rsvpUnico/7e1f6d30-5b1e-11ef-9e1a-6f448c4a507e"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white bg-[#536E5C] border-0 py-2 px-6 focus:outline-none hover:bg-[#394C40] rounded text-lg"
