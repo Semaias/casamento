@@ -85,7 +85,7 @@ const Gallery = () => {
 
           <div className="text-center">
             <p className="leading-relaxed text-base font-normal">
-            <span className="font-bold">O amor venceu </span> e vocês estão prestes e vivenciar o ápice dessa
+              <span className="font-bold">O amor venceu </span> e vocês estão prestes e vivenciar o ápice dessa
               união.
             </p>
             <Image
@@ -102,10 +102,11 @@ const Gallery = () => {
               E Deus disse:{" "}
               <span className="italic">
                 “por isso o homem deixa o seu pai e a sua mãe para se unir com a
-                sua mulher, e os dois se tornam uma só pessoa.” Assim já não são
-                duas pessoas, mas uma só. Portanto, que ninguém separe o que
-                Deus uniu.
+                sua mulher, e os dois se tornam uma só pessoa.”
               </span>{" "}
+              Assim já não são
+              duas pessoas, mas uma só. Portanto, que ninguém separe o que
+              Deus uniu.
               <br />
               <span className="font-bold">Mateus 19:6</span>
             </p>

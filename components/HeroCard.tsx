@@ -16,13 +16,13 @@ const HeroCard = () => {
                         className="object-cover object-center mb-3"
                     />
                 </div>
-                <h1 className="capitalize mb-1 px-6 pt-6 text-3xl font-black text-[#394C40] tracking-tight ">
+                <h1 className="capitalize px-6 pt-6 text-3xl font-black text-[#394C40] tracking-tight ">
                     Janielle & Semaias
                 </h1>
-                <p className="mb-1 px-6 text-xl tracking-[0.27em] font-light text-[#394C40] ">
+                {/* <p className="mb-1 px-6 text-xl tracking-[0.27em] font-light text-[#394C40] ">
                     21 de junho de 2025
-                </p>
-                <p className="mb-1 px-6 font-medium text-[#394C40] ">
+                </p> */}
+                <p className="my-3 px-6 font-medium text-[#394C40] ">
                     Estamos felizes em poder compartilhar esse momento com todos vocês!
                 </p>
             </div>

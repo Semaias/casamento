@@ -36,15 +36,15 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       <div className="relative z-10 text-center">
-        <h1 className="text-4xl md:text-6xl font-black tracking-widest mb-5">SAVE THE DATE</h1>
-        {/* <p
+        <h1 className="text-4xl md:text-6xl font-black tracking-widest mb-4">SAVE THE DATE</h1>
+        <p
           className="text-3xl md:text-4xl leading-none tracking-[0.1em] md:tracking-[0.35em] mb-4">
           21 de junho de 2025
-        </p> */}
-        <h2 className="text-2xl capitalize md:text-3xl font-bold my-5">Nosso grande dia está chegando</h2>
+        </p>
+        <p className="capitalize leading-tight text-2xl md:text-4xl font-bold md:font-normal tracking-[0.15em] md:tracking-normal mb-8">Nosso grande dia está chegando</p>
 
         {/* Contagem regressiva */}
-        <div className="flex justify-center space-x-5 md:space-x-14 text-lg md:text-2xl font-bold">
+        <div className="flex justify-center space-x-4 md:space-x-14 text-lg md:text-2xl font-semibold">
           <div>
             <span className="block text-4xl md:text-6xl">{timeLeft.days}</span>
             <span>Dias</span>
