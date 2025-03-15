@@ -49,13 +49,12 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ACafeteira%2A.%20Como%20posso%20fazer%3F",
       },
-      // NEILSON VAI COMPRAR
-      // {
-      //   id: 7,
-      //   title: "Liquidificador",
-      //   description: "Tá baratinho, pow",
-      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ALiquidificador%2A.%20Como%20posso%20fazer%3F",
-      // },
+      {
+        id: 7,
+        title: "Liquidificador",
+        description: "Tá baratinho, pow",
+        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ALiquidificador%2A.%20Como%20posso%20fazer%3F",
+      },
       {
         id: 8,
         title: "Microondas",
@@ -223,12 +222,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ATravesseiro%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 10,
-        title: "Ferro de passar",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AFerro%20de%20passar%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Neilson
+      // {
+      //   id: 10,
+      //   title: "Ferro de passar",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AFerro%20de%20passar%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 11,
         title: "Tábua de passar",
