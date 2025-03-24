@@ -13,12 +13,13 @@ const Gifts = () => {
   const sections = {
 
     cozinha: [
-      {
-        id: 1,
-        title: "Armário",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AArm%C3%A1rio%2A.%20Como%20posso%20fazer%3F",
-      },
+      // 4 pessoas compraram 1 (rachando o pagamento entre si)
+      // {
+      //   id: 1,
+      //   title: "Armário",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AArm%C3%A1rio%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 2,
         title: "Mesa de Jantar",
@@ -31,12 +32,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AAirfryer%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 4,
-        title: "Batedeira",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ABatedeira%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Clau
+      // {
+      //   id: 4,
+      //   title: "Batedeira",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ABatedeira%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 5,
         title: "Chaleira elétrica",
@@ -49,12 +51,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ACafeteira%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 7,
-        title: "Liquidificador",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ALiquidificador%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Junior (Quinha)
+      // {
+      //   id: 7,
+      //   title: "Liquidificador",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ALiquidificador%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 8,
         title: "Microondas",
@@ -186,12 +189,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AVentilador%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 4,
-        title: "Guarda-roupa",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AGuarda-roupa%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Nós compramos
+      // {
+      //   id: 4,
+      //   title: "Guarda-roupa",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AGuarda-roupa%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 5,
         title: "Kit cobre leito",
@@ -352,12 +356,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ATanquinho%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 4,
-        title: "Aspirador de pó",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AAspirador%20de%20p%C3%B3%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Dielle
+      // {
+      //   id: 4,
+      //   title: "Aspirador de pó",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AAspirador%20de%20p%C3%B3%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 5,
         title: "Furadeira",
