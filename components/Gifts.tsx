@@ -26,12 +26,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AMesa%20de%20Jantar%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 3,
-        title: "Airfryer",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AAirfryer%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Kallyanne e Dja
+      // {
+      //   id: 3,
+      //   title: "Airfryer",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AAirfryer%2A.%20Como%20posso%20fazer%3F",
+      // },
       // Clau
       // {
       //   id: 4,
