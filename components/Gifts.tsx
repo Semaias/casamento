@@ -20,12 +20,13 @@ const Gifts = () => {
       //   description: "Tá baratinho, pow",
       //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AArm%C3%A1rio%2A.%20Como%20posso%20fazer%3F",
       // },
-      {
-        id: 2,
-        title: "Mesa de Jantar",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AMesa%20de%20Jantar%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Bia e Barroso
+      // {
+      //   id: 2,
+      //   title: "Mesa de Jantar",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AMesa%20de%20Jantar%2A.%20Como%20posso%20fazer%3F",
+      // },
       // Kallyanne e Dja
       // {
       //   id: 3,
@@ -133,12 +134,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AKit%20assadeiras%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 20,
-        title: "Jogo de canecas",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AJogo%20de%20canecas%2A.%20Como%20posso%20fazer%3F",
-      },
+      // já temos
+      // {
+      //   id: 20,
+      //   title: "Jogo de canecas",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AJogo%20de%20canecas%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 21,
         title: "Jogo de copos",
@@ -340,12 +342,13 @@ const Gifts = () => {
     ],
 
     lavanderia: [
-      {
-        id: 1,
-        title: "Moop",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AMoop%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Ohanna
+      // {
+      //   id: 1,
+      //   title: "Moop",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AMoop%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 2,
         title: "Kit baldes/ bacias retráteis",

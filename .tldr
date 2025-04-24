@@ -23,87 +23,31 @@
 			"com.tldraw.shape.geo": 10,
 			"com.tldraw.shape.note": 9,
 			"com.tldraw.shape.line": 5,
-			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.frame": 1,
 			"com.tldraw.shape.arrow": 5,
 			"com.tldraw.shape.highlight": 1,
 			"com.tldraw.shape.embed": 4,
-			"com.tldraw.shape.image": 4,
-			"com.tldraw.shape.video": 2,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 3,
 			"com.tldraw.binding.arrow": 0
 		}
 	},
 	"records": [
 		{
-			"gridSize": 10,
-			"name": "",
-			"meta": {},
-			"id": "document:document",
-			"typeName": "document"
-		},
-		{
-			"meta": {},
-			"id": "page:page",
-			"name": "Page 1",
-			"index": "a1",
-			"typeName": "page"
-		},
-		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 556,
-			"y": 94,
-			"lastActivityTimestamp": 1741310004174,
+			"x": 817.8724279835392,
+			"y": -8.020986410235537,
+			"lastActivityTimestamp": 1745500357903,
 			"meta": {}
 		},
 		{
-			"followingUserId": null,
-			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:fill": "semi",
-				"tldraw:geo": "rectangle",
-				"tldraw:dash": "draw",
-				"tldraw:arrowheadStart": "arrow"
-			},
-			"brush": null,
-			"scribbles": [],
-			"cursor": {
-				"type": "move",
-				"rotation": 0
-			},
-			"isFocusMode": false,
-			"exportBackground": true,
-			"isDebugMode": false,
-			"isToolLocked": false,
-			"screenBounds": {
-				"x": 0,
-				"y": 0,
-				"w": 1024,
-				"h": 652
-			},
-			"insets": [
-				false,
-				false,
-				true,
-				false
-			],
-			"zoomBrush": null,
-			"isGridMode": false,
-			"isPenMode": false,
-			"chatMessage": "",
-			"isChatting": false,
-			"highlightedUserIds": [],
-			"isFocused": true,
-			"devicePixelRatio": 1,
-			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
-			"openMenus": [],
-			"isChangingStyle": false,
-			"isReadonly": false,
+			"x": 361.8257887517145,
+			"y": 474.4133046544056,
+			"z": 0.7290000000000001,
 			"meta": {},
-			"duplicateProps": null,
-			"id": "instance:instance",
-			"currentPageId": "page:page",
-			"typeName": "instance"
+			"id": "camera:page:page",
+			"typeName": "camera"
 		},
 		{
 			"editingShapeId": null,
@@ -121,16 +65,8 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": -91,
-			"y": 23,
-			"z": 1,
-			"meta": {},
-			"id": "camera:page:page",
-			"typeName": "camera"
-		},
-		{
-			"x": 109,
-			"y": 43,
+			"x": -310.9876543209876,
+			"y": -367.52714907721577,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -175,6 +111,69 @@
 			"typeName": "shape"
 		},
 		{
+			"meta": {},
+			"id": "binding:XJCQ4HtpiVoZk9jnETPm2",
+			"type": "arrow",
+			"fromId": "shape:ofvwvZAeJ8Xl0fNscdU5p",
+			"toId": "shape:yXdz_TvujTYYcCkiQPRCR",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.006993006993006993,
+					"y": 0.5206611570247934
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 115.4622770919068,
+			"y": -381.278463648834,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:yXdz_TvujTYYcCkiQPRCR",
+			"type": "geo",
+			"props": {
+				"w": 143,
+				"h": 242,
+				"geo": "rectangle",
+				"color": "red",
+				"labelColor": "black",
+				"fill": "solid",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "card 2"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a312y",
+			"typeName": "shape"
+		},
+		{
 			"x": 476,
 			"y": 264,
 			"rotation": 0,
@@ -210,50 +209,68 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 510,
-			"y": 27,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
 			"meta": {},
-			"id": "shape:yXdz_TvujTYYcCkiQPRCR",
-			"type": "geo",
-			"props": {
-				"w": 143,
-				"h": 242,
-				"geo": "rectangle",
-				"color": "black",
-				"labelColor": "black",
-				"fill": "semi",
-				"dash": "draw",
-				"size": "m",
-				"font": "draw",
-				"align": "middle",
-				"verticalAlign": "middle",
-				"growY": 0,
-				"url": "",
-				"scale": 1,
-				"richText": {
-					"type": "doc",
-					"content": [
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "card 2"
-								}
-							]
-						}
-					]
-				}
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:fill": "solid",
+				"tldraw:color": "red",
+				"tldraw:verticalAlign": "middle",
+				"tldraw:font": "draw"
 			},
-			"parentId": "page:page",
-			"index": "a312y",
-			"typeName": "shape"
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1024,
+				"h": 652
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": false,
+			"openMenus": [],
+			"isChangingStyle": true,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
 		},
 		{
 			"meta": {},
@@ -269,23 +286,6 @@
 					"y": 0.4911504424778761
 				},
 				"terminal": "start"
-			},
-			"typeName": "binding"
-		},
-		{
-			"meta": {},
-			"id": "binding:XJCQ4HtpiVoZk9jnETPm2",
-			"type": "arrow",
-			"fromId": "shape:ofvwvZAeJ8Xl0fNscdU5p",
-			"toId": "shape:yXdz_TvujTYYcCkiQPRCR",
-			"props": {
-				"isPrecise": true,
-				"isExact": false,
-				"normalizedAnchor": {
-					"x": 0.006993006993006993,
-					"y": 0.5206611570247934
-				},
-				"terminal": "end"
 			},
 			"typeName": "binding"
 		}
