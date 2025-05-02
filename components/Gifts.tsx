@@ -41,12 +41,13 @@ const Gifts = () => {
       //   description: "Tá baratinho, pow",
       //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ABatedeira%2A.%20Como%20posso%20fazer%3F",
       // },
-      {
-        id: 5,
-        title: "Chaleira elétrica",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AChaleira%20el%C3%A9trica%2A.%20Como%20posso%20fazer%3F",
-      },
+      // É isso aí...
+      // {
+      //   id: 5,
+      //   title: "Chaleira elétrica",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AChaleira%20el%C3%A9trica%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 6,
         title: "Cafeteira",
@@ -116,12 +117,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AKit%20pano%20de%20prato%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 17,
-        title: "Aparelho de jantar",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AAparelho%20de%20jantar%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Não sei o motivo, mas tô tirando
+      // {
+      //   id: 17,
+      //   title: "Aparelho de jantar",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AAparelho%20de%20jantar%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 18,
         title: "Kit frigideiras",
