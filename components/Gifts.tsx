@@ -92,12 +92,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AForno%20el%C3%A9trico%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 13,
-        title: "Faqueiro",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AFaqueiro%2A.%20Como%20posso%20fazer%3F",
-      },
+      // isso não é um comentário
+      // {
+      //   id: 13,
+      //   title: "Faqueiro",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AFaqueiro%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 14,
         title: "Fruteira",
@@ -161,12 +162,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ATigelas%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 24,
-        title: "Jogo americano",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AJogo%20americano%2A.%20Como%20posso%20fazer%3F",
-      },
+      // futebol americano
+      // {
+      //   id: 24,
+      //   title: "Jogo americano",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AJogo%20americano%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 25,
         title: "Quero contribuir com PIX",

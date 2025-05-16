@@ -23,7 +23,7 @@ const Gallery = () => {
               height={500}
               alt="Nossa história 1"
               className="w-full lg:w-1/2 h-auto lg:max-h-72 object-cover rounded"
-              src="/ft01.jpeg"
+              src="/ft01.jpg"
             />
           </div>
 
@@ -43,7 +43,7 @@ const Gallery = () => {
               height={500}
               alt="Nossa história 2"
               className="w-full lg:w-1/2 h-auto lg:max-h-72 object-cover rounded"
-              src="/ft02.jpeg"
+              src="/ft02.jpg"
             />
           </div>
 
@@ -61,7 +61,7 @@ const Gallery = () => {
               height={500}
               alt="Nossa história 3"
               className="w-full lg:w-1/2 h-auto lg:max-h-72 object-cover rounded"
-              src="/ft03.jpeg"
+              src="/ft03.jpg"
             />
           </div>
 
@@ -79,7 +79,7 @@ const Gallery = () => {
               height={500}
               alt="Nossa história 4"
               className="w-full lg:w-1/2 h-auto lg:max-h-72 object-cover rounded"
-              src="/ft04.jpeg"
+              src="/ft04.jpg"
             />
           </div>
 
@@ -93,7 +93,7 @@ const Gallery = () => {
               height={500}
               alt="Nossa história 5"
               className="w-full lg:w-1/2 h-auto lg:max-h-72 object-cover rounded mx-auto mt-5"
-              src="/ft05.jpeg"
+              src="/ft05.jpg"
             />
           </div>
 

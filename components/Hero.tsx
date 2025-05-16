@@ -1,4 +1,4 @@
-"use client"; // Adicione esta linha no início do arquivo
+"use client"; 
 
 import React, { useState, useEffect } from 'react';
 
@@ -30,8 +30,8 @@ const Hero: React.FC = () => {
   }, [targetDate]);
 
   return (
-    <section id="nossa-história" className="relative flex items-center justify-center h-[80vh] bg-cover bg-center text-white"
-      style={{ backgroundImage: "url('/banner.png')" }}>
+    <section id="nossa-história" className="relative flex items-center justify-center h-[80vh] bg-cover bg-[position:center_30%] text-white"
+      style={{ backgroundImage: "url('/banner.jpg')" }}>
 
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
