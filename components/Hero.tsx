@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
   }, [targetDate]);
 
   return (
-    <section id="nossa-história" className="relative flex items-center justify-center h-[80vh] bg-cover bg-[position:center_30%] text-white"
+    <section id="nossa-história" className="relative flex items-center justify-center h-[80vh] bg-cover bg-[position:center_30%] text-white transition duration-700 ease-in-out "
       style={{ backgroundImage: "url('/banner.jpg')" }}>
 
       <div className="absolute inset-0 bg-black opacity-50"></div>

@@ -131,12 +131,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AKit%20frigideiras%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 19,
-        title: "Kit assadeiras",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AKit%20assadeiras%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Emilly Natal escolheu
+      // {
+      //   id: 19,
+      //   title: "Kit assadeiras",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AKit%20assadeiras%2A.%20Como%20posso%20fazer%3F",
+      // },
       // já temos
       // {
       //   id: 20,
@@ -150,12 +151,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AJogo%20de%20copos%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 22,
-        title: "Kit porta tempero",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AKit%20porta%20tempero%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Hyngrid escolheu
+      // {
+      //   id: 22,
+      //   title: "Kit porta tempero",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2AKit%20porta%20tempero%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 23,
         title: "Tigelas",
