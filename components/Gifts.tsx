@@ -270,12 +270,13 @@ const Gifts = () => {
         description: "Tá baratinho, pow",
         link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2ATelevis%C3%A3o%2A.%20Como%20posso%20fazer%3F",
       },
-      {
-        id: 3,
-        title: "Painel/hack para TV",
-        description: "Tá baratinho, pow",
-        link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2APainel%2Fhack%20para%20TV%2A.%20Como%20posso%20fazer%3F",
-      },
+      // Vitória vai dar
+      // {
+      //   id: 3,
+      //   title: "Painel/hack para TV",
+      //   description: "Tá baratinho, pow",
+      //   link: "https://wa.me/558491607617?text=Ol%C3%A1,%20parab%C3%A9ns%20pelo%20noivado!%20Gostaria%20de%20te%20presentear%20com%20%2APainel%2Fhack%20para%20TV%2A.%20Como%20posso%20fazer%3F",
+      // },
       {
         id: 4,
         title: "Mesa de centro",
